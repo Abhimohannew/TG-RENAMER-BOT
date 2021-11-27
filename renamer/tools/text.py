@@ -20,13 +20,13 @@ class TEXT:
 
 ** FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-** Developer:** {bot_owner}
+** Developer:** [FF Group](https://t.me/+TxCifZC2LsswYjk1)
 
-** Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+** Channel:** [MOVIE UPDATES](https://t.me/new_moviyzz)
 
-** Group:** [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+** Group:** [[FF]𝓕𝓘𝓛𝓜 𝓕𝓐𝓒𝓣𝓞𝓡𝓨 Movies Request GROUP](https://t.me/+TxCifZC2LsswYjk1)
 
-** Source Code:** [Press Me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)
+** Source Code:** [Press Me](https://t.me/AdhavaaBiriyaniKittiyalo)
 """
 
     HELP_USER = """**Follow Below Steps:**
@@ -45,7 +45,7 @@ I am a telegram renamer with permanent thumbnail.
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
 
-**Maintained By:** {bot_owner}
+**Maintained By:** [FF]𝓕𝓘𝓛𝓜 𝓕𝓐𝓒𝓣𝓞𝓡𝓨 Movies Request GROUP
 """
 
 
