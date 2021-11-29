@@ -31,7 +31,7 @@ async def progress_bar(current, total, status_msg, start, msg):
 
 {FILE_FOLDER} **Size**: {humanbytes(total)}
 
-{HOURGLASS_FLOWING_SAND} **Time Left**: {time_to_complete}"""
+{ALARM_CLOCK} **Time Left**: {time_to_complete}"""
         try:
             await msg.edit(text=current_message)
         except:
