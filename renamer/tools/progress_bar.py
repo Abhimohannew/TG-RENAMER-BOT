@@ -29,7 +29,7 @@ async def progress_bar(current, total, status_msg, start, msg):
 
 {HOLLOW_RED_CIRCLE} **Done**: {humanbytes(current)}
 
-{HOLLOW_RED_CIRCLE} **Size**: {humanbytes(total)}
+{FILE_FOLDER} **Size**: {humanbytes(total)}
 
 {HOLLOW_RED_CIRCLE} **Time Left**: {time_to_complete}"""
         try:
