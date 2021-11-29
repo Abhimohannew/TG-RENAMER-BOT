@@ -27,11 +27,11 @@ async def progress_bar(current, total, status_msg, start, msg):
 
 {ROCKET} **Speed**: {humanbytes(speed)}/s
 
-{HEAVY_CHECK_MARK} **Done**: {humanbytes(current)}
+{HOLLOW_RED_CIRCLE} **Done**: {humanbytes(current)}
 
-{FILE_FOLDER} **Size**: {humanbytes(total)}
+{HOLLOW_RED_CIRCLE} **Size**: {humanbytes(total)}
 
-{HOURGLASS_FLOWING_SAND} **Time Left**: {time_to_complete}"""
+{HOLLOW_RED_CIRCLE} **Time Left**: {time_to_complete}"""
         try:
             await msg.edit(text=current_message)
         except:
