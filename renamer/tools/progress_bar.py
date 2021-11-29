@@ -20,18 +20,18 @@ async def progress_bar(current, total, status_msg, start, msg):
         time_to_complete = TimeFormatter(time_to_complete)
         progressbar = "[{0}{1}]".format(\
             ''.join([f"{GREEN_SQUARE}" for i in range(math.floor(percentage / 10))]),
-            ''.join([f"{WHITE_MEDIUM_SMALL_SQUARE}" for i in range(10 - math.floor(percentage / 10))])
+            ''.join([f"{WHITE_LARGE_SQUARE}" for i in range(10 - math.floor(percentage / 10))])
             )
         current_message = f"""**{status_msg}** {round(percentage, 2)}%
 {progressbar}
 
-{HOLLOW_RED_CIRCLE} **Speed**: {humanbytes(speed)}/s
+{ROCKET} **Speed**: {humanbytes(speed)}/s
 
-{HOLLOW_RED_CIRCLE} **Done**: {humanbytes(current)}
+{HEAVY_CHECK_MARK} **Done**: {humanbytes(current)}
 
-{HOLLOW_RED_CIRCLE} **Size**: {humanbytes(total)}
+{FILE_FOLDER} **Size**: {humanbytes(total)}
 
-{HOLLOW_RED_CIRCLE} **Time Left**: {time_to_complete}"""
+{HOURGLASS_FLOWING_SAND} **Time Left**: {time_to_complete}"""
         try:
             await msg.edit(text=current_message)
         except:
