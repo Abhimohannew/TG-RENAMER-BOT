@@ -1,8 +1,8 @@
 from pyrogram.emoji import *
 
 class TEXT:
-    DOWNLOAD_START = f"Downloading Starts soon {SLEEPING_FACE}"
-    UPLOAD_START = f"Upload Starting Soon {SLEEPING_FACE}"
+    DOWNLOAD_START = f"𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠... {SUNGLASSES}"
+    UPLOAD_START = f"𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠... {SUNGLASSES}"
     UPLOAD_SUCESS = f"Thanks for using [me](https://t.me/rocky_rename_bot)"
     BANNED_USER_TEXT = f"Hey bro, you are **banned** from using me {FACE_WITH_TEARS_OF_JOY}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format `/login bot_password`"
@@ -36,7 +36,6 @@ class TEXT:
 ☞︎︎︎ Now send me the Telegram file you want to rename.
 ☞︎︎︎ Send the new name when bot ask.
 
-For source code check about
 """
 
     START_TEXT = """Hi {user_mention},
