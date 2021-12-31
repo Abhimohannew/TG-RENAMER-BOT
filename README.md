@@ -28,6 +28,7 @@ Press the following button to deploy in heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-Bots/TG-RENAMER-BOT)
 
+##Deploy to Railway
 ## Bot Features 🔥
 - Renaming Telegram files as file or video.
 
